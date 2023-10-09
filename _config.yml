@@ -195,7 +195,7 @@ bangumi: # 追番设置
   progress: true
   proxy:
     host: '代理host'
-    port: '代理端口'
+    port: '7890'
   extra_options:
     key: value
     lazyload:
