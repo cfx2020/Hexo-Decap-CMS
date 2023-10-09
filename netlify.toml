@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run clear && npm run bangumi && npm run build"
+  command = "npm run clean && npm run bangumi && npm run build"
 
 [build.environment]
   NODE_VERSION = "14"
