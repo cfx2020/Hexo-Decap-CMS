@@ -193,9 +193,7 @@ bangumi: # 追番设置
   color: #000000
   webp: true
   progress: true
-  proxy:
-    host: 'localhost'
-    port: '7890'
+  
   extra_options:
     key: value
     lazyload:
