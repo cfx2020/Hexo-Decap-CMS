@@ -194,7 +194,7 @@ bangumi: # 追番设置
   webp: true
   progress: true
   proxy:
-    host: '代理host'
+    host: '127.0.0.1'
     port: '7890'
   extra_options:
     key: value
