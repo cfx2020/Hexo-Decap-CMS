@@ -224,3 +224,7 @@ live2d:
     height: 400         # 高度
   mobile:
     show: false   # 在移动设备上是否开启live2d
+
+  markdown:
+  plugins:
+    - markdown-it-latex2img
