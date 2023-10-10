@@ -7,13 +7,13 @@ title: 铃溪的blogs
 subtitle: ''
 description: ''
 keywords:
-author: 
+author: 铃溪
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://yoursite.com
+url: http://lingxi.netlify.app
 #permalink: :year/:month/:day/:title/
 permalink: post/:abbrlink/
 permalink_defaults:
