@@ -27,7 +27,7 @@
     "hexo-generator-tag": "2.0.0",
     "hexo-renderer-ejs": "2.0.0",
     "hexo-renderer-markdown-it":"7.1.0",
-    "markdown-it-latex2img":"",
+    "markdown-it-latex2img":"0.0.6",
     "markdown-it-abbr":"",
     "markdown-it-container":"",
     "markdown-it-deflist":"",
