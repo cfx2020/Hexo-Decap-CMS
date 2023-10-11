@@ -225,6 +225,6 @@ live2d:
   mobile:
     show: false   # 在移动设备上是否开启live2d
 
-  markdown:
-  plugins:
-    - markdown-it-latex2img
+  #markdown:
+  #plugins:
+    #- markdown-it-latex2img
