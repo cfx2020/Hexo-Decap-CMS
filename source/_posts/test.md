@@ -9,6 +9,10 @@ $﻿$
 p﻿V=nRT
 $﻿$
 
-$﻿$\Delta U=Q+W$$
+$﻿$
+\Delta U=Q+W
+$$
 
-$﻿$\Delta H = \Delta U - \Delta (pV)
+$﻿$
+\Delta H = \Delta U - \Delta (pV)
+$﻿$
