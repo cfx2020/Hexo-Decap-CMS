@@ -236,9 +236,9 @@ live2d:
     quotes: “”‘’
     plugins:
         - plugin:
-            name: markdown-it-mark
+            name: markdown-it-katex
             enable: false
-         - plugin:
+        - plugin:
             name: markdown-it-latex2img
             enable: true
 
