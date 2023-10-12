@@ -225,37 +225,16 @@ live2d:
   mobile:
     show: false   # 在移动设备上是否开启live2d
 
-markdown:
-  preset: 'default'
-  render:
+markdown_it_plus:
+    highlight: true
     html: true
-    xhtmlOut: false
-    langPrefix: 'language-'
+    xhtmlOut: true
     breaks: true
+    langPrefix:
     linkify: true
-    typographer: true
-    quotes: '“”‘’'
-  enable_rules:
-  disable_rules:
-  plugins:
-    - name: markdown-it-latex2img
-      options:
-        style: 'filter: opacity(90%);transform:scale(0.85);text-align:center;'
-  anchors:
-    level: 2
-    collisionSuffix: ''
-    permalink: false
-    permalinkClass: 'header-anchor'
-    permalinkSide: 'left'
-    permalinkSymbol: '¶'
-    case: 0
-    separator: '-'
-  images:
-    lazyload: false
-    prepend_root: false
-    post_asset: false
-  inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
-
+    typographer:
+    quotes: “”‘’
+    pre_class: highlight
   
 
   #mathjax:
