@@ -225,6 +225,28 @@ live2d:
   mobile:
     show: false   # 在移动设备上是否开启live2d
 
+  markdown_it_plus:
+    highlight: true
+    html: true
+    xhtmlOut: true
+    breaks: true
+    langPrefix:
+    linkify: true
+    typographer:
+    quotes: “”‘’
+    plugins:
+        - plugin:
+            name: markdown-it-mark
+            enable: false
+
+  markdown:
+    plugins:
+      - name: markdown-it-latex2img
+        options:
+          style: 'filter: opacity(90%);transform:scale(0.85);text-align:center;'
+
+  
+
   #mathjax:
   #tags: none # or 'ams' or 'all'
   #single_dollars: true # enable single dollar signs as in-line math delimiters
