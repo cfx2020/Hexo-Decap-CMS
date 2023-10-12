@@ -240,7 +240,7 @@ live2d:
             enable: false
         - plugin:
             name: markdown-it-latex2img
-            enable: false
+            enable: true
 
   markdown:
     plugins:
