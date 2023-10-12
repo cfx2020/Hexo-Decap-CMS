@@ -238,6 +238,9 @@ live2d:
         - plugin:
             name: markdown-it-mark
             enable: false
+        - plugin:
+            name: markdown-it-latex2img
+            enable: false
 
   markdown:
     plugins:
