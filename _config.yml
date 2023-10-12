@@ -225,25 +225,36 @@ live2d:
   mobile:
     show: false   # 在移动设备上是否开启live2d
 
-  markdown_it_plus:
-    highlight: true
+markdown:
+  preset: 'default'
+  render:
     html: true
-    xhtmlOut: true
+    xhtmlOut: false
+    langPrefix: 'language-'
     breaks: true
-    langPrefix:
     linkify: true
-    typographer:
-    quotes: “”‘’
-    plugins:
-        - plugin:
-            name: markdown-it-katex
-            enable: true
-        
-#  markdown:
-  #  plugins:
-    #  - name: markdown-it-latex2img
-      #  options:
-       #   style: 'filter: opacity(90%);transform:scale(0.85);text-align:center;'
+    typographer: true
+    quotes: '“”‘’'
+  enable_rules:
+  disable_rules:
+  plugins:
+    - name: markdown-it-latex2img
+      options:
+        style: 'filter: opacity(90%);transform:scale(0.85);text-align:center;'
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: false
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: '-'
+  images:
+    lazyload: false
+    prepend_root: false
+    post_asset: false
+  inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
 
   
 
@@ -259,6 +270,4 @@ live2d:
     # you can put your extension options here
     # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
 
-  #markdown:
-  #plugins:
-    #- markdown-it-latex2img
+
